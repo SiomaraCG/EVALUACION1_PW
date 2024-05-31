@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4caf9e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.receta {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.receta-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.receta-imagen {
+    max-width: 450px;
+    max-height: 300px;
+    margin-right: 1rem;
+
+}
+
+.receta h2 {
+    border-bottom: 2px solid #4caf9e;
+    padding-bottom: 0.5rem;
+}
+
+
+ul li, ol li {
+    margin-bottom: 0.5rem;
+}
